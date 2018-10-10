@@ -8,15 +8,15 @@ Template small/medium sized C++ project makefile based
 Structure:
 ----------
 project/include : header files (*.hpp)
-    project/include/external : external modules
-    project/include/moduleX : internal module X
+    project/include/external : external modules header files --> gitignored
+    project/include/moduleX : internal module X header files
 
 project/src : implementation files (*.cpp)
     project/src/program.cpp : main implementation file
     project/src/moduleX : internal module X implementation files
 
-project/build/objects : object files (*.o) -> gitignored
-project/build/apps : executables (*.exe) -> gitignored
+project/build/objects : object files (*.o) --> gitignored
+project/build/apps : executable files (*.exe) --> gitignored
 
 project/makefile
 
