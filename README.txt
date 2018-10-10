@@ -18,6 +18,8 @@ project/src : implementation files (*.cpp)
 project/build/objects : object files (*.o) -> gitignored
 project/build/apps : executables (*.exe) -> gitignored
 
+project/makefile
+
 Commands:
 ---------
 `make all` : make with no debug nor release compilation flags (same as `make`)
