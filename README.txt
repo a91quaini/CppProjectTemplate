@@ -15,8 +15,8 @@ project/src : implementation files (*.cpp)
     project/src/program.cpp : main implementation file
     project/src/moduleX : internal module X implementation files
 
-project/build/objects : object files (*.o)
-project/build/apps : executables
+project/build/objects : object files (*.o) -> gitignored
+project/build/apps : executables (*.exe) -> gitignored
 
 Commands:
 ---------
@@ -36,4 +36,4 @@ then
 
 Aknowledgement:
 ---------------
-www.patrow.net
+Arash Patrow
